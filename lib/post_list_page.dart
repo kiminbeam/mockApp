@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:mockapp/post_list_body.dart';
 
-import 'home_body.dart';
-
-class HomePage extends StatelessWidget {
-
+class PostListPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: HomeBody(),
+      body: PostListBody(),
     );
   }
 }
+
